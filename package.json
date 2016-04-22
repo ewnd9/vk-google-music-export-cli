@@ -1,9 +1,11 @@
 {
   "name": "vk-google-music-export-cli",
-  "description": "",
+  "description": "One way export of audio from vk.com to google music",
   "version": "0.0.0",
   "main": "lib/index.js",
-  "bin": "cli.js",
+  "bin": {
+    "vk-google-music-export": "cli.js"
+  },
   "scripts": {
     "lint": "eslint src/**/*.js",
     "prepush": "npm run lint && npm test",
