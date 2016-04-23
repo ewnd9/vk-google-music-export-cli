@@ -7,10 +7,10 @@
     "vk-google-music-export": "cli.js"
   },
   "scripts": {
-    "lint": "eslint src/**/*.js",
+    "lint": "eslint lib/**/*.js",
     "prepush": "npm run lint && npm test",
     "start": "node cli.js",
-    "test": "ava",
+    "test": "npm run lint && ava",
     "test:watch": "npm run test -- --watch"
   },
   "engines": {
@@ -20,8 +20,14 @@
     ""
   ],
   "dependencies": {
+    "bluebird": "^3.3.5",
+    "configstore": "^2.0.0",
+    "debug": "^2.2.0",
+    "got": "^6.3.0",
     "meow": "^3.7.0",
-    "update-notifier": "^0.6.0"
+    "update-notifier": "^0.6.0",
+    "vk-auth-prompt": "^1.0.0",
+    "vk-universal-api": "^0.2.0"
   },
   "devDependencies": {
     "ava": "^0.14.0",
