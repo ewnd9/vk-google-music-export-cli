@@ -1,7 +1,7 @@
 {
   "name": "vk-google-music-export-cli",
   "description": "One way export of audio from vk.com to google music",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "bin": {
     "vk-google-music-export": "cli.js"
