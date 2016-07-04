@@ -19,19 +19,33 @@ Location: `~/.config/configstore/vk-google-music-export-cli.json`
 
 ## Install
 
-```
+```sh
 $ npm install -g vk-google-music-export-cli
-$ pip3 install docopt
-$ pip3 install gmusicapi
-$ pip3 install gmusicapi_wrapper
+
+$ sudo apt-get install python3-setuptools
+$ sudo pip3 install docopt
+$ sudo pip3 install gmusicapi
+$ sudo pip3 install gmusicapi_wrapper
+
 $ git clone https://github.com/thebigmunch/gmusicapi-scripts.git
 ```
 
 ## Usage
 
-```
+```sh
+$ vk-google-music-export --auth
 $ vk-google-music-export <path-to-gmusicapi_scripts>/gmupload.py
 ```
+
+## Tips
+
+
+
+## Related
+
+- [gmusicapi](https://github.com/simon-weber/gmusicapi)
+- [gmusicapi-wrapper](https://github.com/thebigmunch/gmusicapi-wrapper)
+- [gmusicapi-scripts](https://github.com/thebigmunch/gmusicapi-scripts)
 
 ## License
 
