@@ -23,6 +23,7 @@
     "bluebird": "^3.3.5",
     "chalk": "^1.1.3",
     "configstore": "^2.0.0",
+    "ffmetadata": "^1.4.0",
     "got": "^6.3.0",
     "meow": "^3.7.0",
     "update-notifier": "^0.6.0",

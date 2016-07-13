@@ -6,9 +6,9 @@ One way export of audio from vk.com to google music
 
 - [x] VK auth
 - [x] Download from a VK authed user page and upload to google music with a python lib
+- [x] Fix id3 tags
 - [ ] Download from a VK post by a post id and upload to google music
 - [ ] Add uploaded tracks to a tracklist, sort by vk audio list
-- [ ] Fix id3 tags
 
 ## Config
 
@@ -22,6 +22,7 @@ Location: `~/.config/configstore/vk-google-music-export-cli.json`
 ```sh
 $ npm install -g vk-google-music-export-cli
 
+$ sudo apt-get install ffmpeg
 $ sudo apt-get install python3-setuptools
 $ sudo pip3 install docopt
 $ sudo pip3 install gmusicapi
