@@ -24,23 +24,27 @@ $ npm install -g vk-google-music-export-cli
 
 $ sudo apt-get install ffmpeg
 $ sudo apt-get install python3-setuptools
+
 $ sudo pip3 install docopt
 $ sudo pip3 install gmusicapi
 $ sudo pip3 install gmusicapi_wrapper
-
-$ git clone https://github.com/thebigmunch/gmusicapi-scripts.git
 ```
 
 ## Usage
 
 ```sh
-$ vk-google-music-export --auth
-$ vk-google-music-export <path-to-gmusicapi_scripts>/gmupload.py
+$ vk-google-music-export --help
+
+  Usage
+    $ vk-google-music-export --auth
+    $ vk-google-music-export
+
+  Options
+    --limit <n>  Sync only last <n> audios
+    --concurrency <n>  Limit concurrent downloads / uploads
+    --skip-missing  Ignore missing tracks (404 error) from VK
+    --uploader-id <mac-address>  Use if there is error about wrong mac addres
 ```
-
-## Tips
-
-
 
 ## Related
 
