@@ -13,11 +13,18 @@
     "test": "npm run lint && ava",
     "test:watch": "npm run test -- --watch"
   },
+  "files": [
+    "lib",
+    "vendor",
+    "cli.js"
+  ],
   "engines": {
     "node": ">=4.0"
   },
   "keywords": [
-    ""
+    "vk",
+    "google-music",
+    "CLI"
   ],
   "dependencies": {
     "bluebird": "^3.3.5",
