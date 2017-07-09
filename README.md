@@ -51,6 +51,9 @@ $ vk-google-music-export --help
 - [gmusicapi](https://github.com/simon-weber/gmusicapi)
 - [gmusicapi-wrapper](https://github.com/thebigmunch/gmusicapi-wrapper)
 - [gmusicapi-scripts](https://github.com/thebigmunch/gmusicapi-scripts)
+- [kattjakt/kepler](https://github.com/Kattjakt/kepler) - Soundcloud ⇒ Google Play Music
+- [brettcoburn/gmusic-migrate](https://github.com/brettcoburn/gmusic-migrate) - Google Play Music ⇒ Google Play Music
+- [soulfx/gmusic-playlist](https://github.com/soulfx/gmusic-playlist)soulfx/gmusic-playlist) - Google Play Music ⇒ csv
 
 ## License
 
